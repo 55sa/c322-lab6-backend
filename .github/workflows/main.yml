@@ -33,6 +33,6 @@ jobs:
 
       - name: Build and push the image
         run: |
-          docker login --username 55sa --password ${{secrets.ACCESS_TOKEN}} ghcr.io
-          docker build -t ghcr.io/55sa/lab6:latest --file Dockerfile .  
-          docker push ghcr.io/55sa/lab6:latest
+          docker login --username jiahao9273 --password ${{secrets.ACCESS_TOKEN}} ghcr.io
+          docker build -t ghcr.io/jiahao9273/lab6:latest --file Dockerfile .  
+          docker push ghcr.io/jiahao9273/lab6:latest
